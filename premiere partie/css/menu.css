@@ -13,9 +13,7 @@ img {
 .retour {
     display: inline-block;
     align-self: flex-start;
-    /* le bouton ne s'étire pas sur toute la largeur */
     margin-top: auto;
-    /* le pousse en bas de la carte */
     padding: 8px 20px;
     background: green;
     color: rgb(152, 176, 153);
@@ -25,7 +23,6 @@ img {
     border-radius: 999px;
     cursor: pointer;
     transition: background 0.2s;
-    /* changement de couleur en douceur */
 }
 
 .retour:hover {
@@ -52,7 +49,6 @@ img {
     font-size: 14px;
 }
 
-/* 6 colonnes de même largeur */
 .végétaux {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -64,11 +60,8 @@ img {
     display: block;
     font-size: 12px;
 }
-
-/* Le carré gris (en attendant les vraies images) */
 .photo {
     aspect-ratio: 1 / 1;
-    /* force une forme carrée */
     width: 100%;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -76,7 +69,6 @@ img {
     transition: transform 0.2s;
 }
 
-/* Effet au survol : la carte grossit un peu */
 .végétal:hover .photo {
     transform: scale(1.05);
 }
