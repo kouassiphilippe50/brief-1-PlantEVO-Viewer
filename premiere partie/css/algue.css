@@ -5,12 +5,12 @@ body{
 }
 
 .retour{
-    display:block;
+    display:inline-block;
     align-self:flex-start;
     margin-top:auto;
     padding:8px 20px;
     background:green;
-    color:green;
+    color:rgb(153, 176, 153);
     font-style:normal;
     font-weight:700;
     border:none;
@@ -19,6 +19,12 @@ body{
     transition: background 0.2s;
 }
 
-retour:hover{
+.retour:hover{
     background-color:#14401d;
+}
+.repro{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px
 }
